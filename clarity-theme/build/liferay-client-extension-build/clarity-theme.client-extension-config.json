@@ -1,0 +1,62 @@
+{
+  "com.liferay.client.extension.type.configuration.CETConfiguration~clarity-theme" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/clarity-theme",
+    "buildTimestamp" : 1760489536428,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Clarity Theme CSS",
+    "projectId" : "claritytheme",
+    "projectName" : "clarity-theme",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "themeCSS",
+    "typeSettings" : [ "clayURL=css/clay.css", "mainURL=css/main.css" ],
+    "webContextPath" : "/clarity-theme"
+  },
+  "com.liferay.client.extension.type.configuration.CETConfiguration~clarity-theme-favicon" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/clarity-theme",
+    "buildTimestamp" : 1760489536428,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Clarity Theme Favicon",
+    "projectId" : "claritytheme",
+    "projectName" : "clarity-theme",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "themeFavicon",
+    "typeSettings" : [ "url=clarity-favicon-primary.svg" ],
+    "webContextPath" : "/clarity-theme"
+  },
+  "com.liferay.client.extension.type.configuration.CETConfiguration~clarity-theme-favicon-dark" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/clarity-theme",
+    "buildTimestamp" : 1760489536428,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Clarity Theme Favicon Dark",
+    "projectId" : "claritytheme",
+    "projectName" : "clarity-theme",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "themeFavicon",
+    "typeSettings" : [ "url=clarity-favicon-dark.svg" ],
+    "webContextPath" : "/clarity-theme"
+  },
+  "com.liferay.client.extension.type.configuration.CETConfiguration~clarity-theme-favicon-light" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/clarity-theme",
+    "buildTimestamp" : 1760489536428,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Clarity Theme Favicon Light",
+    "projectId" : "claritytheme",
+    "projectName" : "clarity-theme",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "themeFavicon",
+    "typeSettings" : [ "url=clarity-favicon-light.svg" ],
+    "webContextPath" : "/clarity-theme"
+  }
+}

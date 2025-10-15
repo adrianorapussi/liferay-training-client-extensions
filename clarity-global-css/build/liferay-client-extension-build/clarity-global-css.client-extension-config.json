@@ -1,0 +1,17 @@
+{
+  "com.liferay.client.extension.type.configuration.CETConfiguration~clarity-global-css" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/clarity-global-css",
+    "buildTimestamp" : 1760489443704,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Clarity Global CSS",
+    "projectId" : "clarityglobalcss",
+    "projectName" : "clarity-global-css",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "globalCSS",
+    "typeSettings" : [ "url=global.2564b7488f0225a9e0ab.css" ],
+    "webContextPath" : "/clarity-global-css"
+  }
+}

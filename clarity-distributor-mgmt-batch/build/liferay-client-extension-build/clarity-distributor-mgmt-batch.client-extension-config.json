@@ -1,0 +1,21 @@
+{
+  "com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~clarity-distributor-mgmt-batch-oauth-application-headless-server" : {
+    ".serviceAddress" : "localhost:8080",
+    ".serviceScheme" : "http",
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/clarity-distributor-mgmt-batch",
+    "buildTimestamp" : 1760489618741,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "homePageURL" : "$[conf:.serviceScheme]://$[conf:.serviceAddress]",
+    "name" : "Clarity Distributor Mgmt Batch OAuth Application Headless Server",
+    "projectId" : "claritydistributormgmtbatch",
+    "projectName" : "clarity-distributor-mgmt-batch",
+    "properties" : [ ],
+    "scopes" : [ "Liferay.Headless.Admin.List.Type.everything", "Liferay.Headless.Admin.User.everything", "Liferay.Headless.Admin.Workflow.everything", "Liferay.Headless.Batch.Engine.everything", "Liferay.Notification.REST.everything", "Liferay.Object.Admin.REST.everything" ],
+    "sourceCodeURL" : "",
+    "type" : "oAuthApplicationHeadlessServer",
+    "typeSettings" : [ ".serviceScheme=http", "scopes=Liferay.Headless.Admin.List.Type.everything\nLiferay.Headless.Admin.User.everything\nLiferay.Headless.Admin.Workflow.everything\nLiferay.Headless.Batch.Engine.everything\nLiferay.Notification.REST.everything\nLiferay.Object.Admin.REST.everything", ".serviceAddress=localhost:8080" ],
+    "webContextPath" : "/clarity-distributor-mgmt-batch"
+  }
+}
